@@ -24,9 +24,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func helloTap(_ sender: UIButton) {
+        infoLabel.text = "Hello World!"
     }
     
     @IBAction func clearTap(_ sender: UIButton) {
+        infoLabel.text = ""
     }
     
 }
